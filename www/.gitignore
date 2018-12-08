@@ -1,2 +1,4 @@
 img/
 lib/
+node_modules/
+dist/
