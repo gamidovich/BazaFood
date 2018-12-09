@@ -1,0 +1,24 @@
+.navbar {
+
+    &-yellow {
+        background-color: $yellow;
+    }
+
+    &-toggler {
+        border: none;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__tel {
+        text-align: center;
+        color: $black;
+    }
+
+    &__call {
+        display: block;
+        font-size: 10px;
+    }
+
+}
