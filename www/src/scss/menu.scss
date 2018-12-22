@@ -5,8 +5,6 @@
         justify-content: space-between;
         align-items: stretch;
         margin: 15px 0;
-
-
     }
 
     &__product {
@@ -65,6 +63,27 @@
         &--orange {
             background-color: $orange;
         }
+
+        &--black {
+            background-color: $black;
+        }
+
+        &--footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            overflow: hidden;
+            &:before {
+                content: '';
+                display: block;
+                width: 230px;
+                height: 113px;
+                margin-top: -16px;
+                background: url(../../img/instagram.svg) bottom no-repeat;
+                background-size: cover; 
+            }
+        }
     }
 
     &__num,
@@ -77,6 +96,12 @@
     &__num {
         font-size: $fs-sm;
         color: $grey;
+
+        &--footer {
+            padding: 6px 0;
+            text-align: center;
+            color: $white;
+        }
     }
 
     &__link {
@@ -88,6 +113,12 @@
         &--big {
             font-size: $fs-lg;
         }
+
+        &--footer {
+            padding: 6px 0;
+            color: $yellow;
+            text-align: center;
+        }
     }
 
     &__descr {
@@ -96,6 +127,11 @@
 
         &--big {
             font-size: $fs-lg;
+        }
+
+        &--footer {
+            text-align: center;
+            color: $grey;
         }
     }
 

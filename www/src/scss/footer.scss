@@ -1,0 +1,57 @@
+.footer {
+    padding: 15px;
+
+    &__logo {
+        color: $yellow;
+    }
+
+    &__title {
+        font-size: $fs-normal;
+        text-align: center;
+        line-height: $lh-base;
+    }
+
+    &__tel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $fs-sm;
+        line-height: $lh-normal;
+        color: $black;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 30px;
+            height: 30px;
+            background: url('../../img/call-logo.svg') center no-repeat;
+            background-size: cover;
+
+        }
+    }
+
+    &__telnum {        
+        line-height: $lh-normal;
+    }
+
+    &__social { 
+
+        &:before {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+            background: url('../../img/instagram.svg') center no-repeat;
+            background-size: contain;
+        }
+    }
+
+    &__descr {
+        color: #9a9a9a;
+    }
+
+    &__num {
+        color: $white;
+    }
+}
