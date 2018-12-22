@@ -15,19 +15,24 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        padding: 15px;
         font-size: $fs-sm;
         line-height: $lh-normal;
         color: $black;
+        border-radius: 8px;
+        background: $yellow url('../../img/call-logo.svg') 7px -14px no-repeat;
+        background-size: 88px 94px;
 
-        &:before {
-            content: '';
-            display: block;
-            width: 30px;
-            height: 30px;
-            background: url('../../img/call-logo.svg') center no-repeat;
-            background-size: cover;
+        // &:before {
+        //     content: '';
+        //     display: block;
+        //     width: 30px;
+        //     height: 30px;
+        //     background: url('../../img/call-logo.svg') center no-repeat;
+        //     background-size: cover;
 
-        }
+        // }
     }
 
     &__telnum {        
