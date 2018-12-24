@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick-theme.css">
         <link rel="stylesheet" href="dist/style.css">
         <title>BazaFood</title>
     </head>
@@ -15,7 +17,10 @@
           <img src="img/logo-mini.jpg" class="d-block d-lg-none" alt="">
         </a>
 
-        <a href="tel:+79898709151" class="d-block d-lg-none  navbar__tel">+7 (989) 870 &#8226 91 &#8226 51 <span class="navbar__call">Нажми чтобы позвонить</span> </a>
+        <a href="tel:+79898709151" class="d-block d-lg-none  navbar__tel">
+          +7 (989) 870 &#8226 91 &#8226 51 
+          <span class="navbar__call">Нажми чтобы позвонить</span> 
+        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,7 +32,7 @@
               <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Цены</a>
+              <a class="nav-link" href="#">Меню</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Контакты</a>
@@ -36,12 +41,54 @@
         </div>
 
         <a href="tel:+79898709151" class="d-none d-lg-block  navbar__tel">+7 (989) 870 &#8226 91 &#8226 51</a>
-
+        
+        <div class="d-none d-lg-block  navbar__address">
+          <span class="navbar__city">г.Махачкала</span>
+          <span class="navbar__street">ул.Танкаева 64А</span>
+          <span class="navbar__location">Время работы с 11:00 по 23:00</span>
+        </div> 
+        
       </nav>
 
-        <script type="text/javascript" src="lib/jquery/jquery.js"></script>
-        <script type="text/javascript" src="lib/poper/poper.min.js"></script>
-        <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="dist/bundle.js"></script>           
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6">              
+              <div class="carousel">
+                <div class="carousel__list">
+                  <div class="carousel__product">
+                    <div class="carousel__pic">
+                        <div class="carousel__price">
+
+                        </div>
+                    </div>
+                    <div class="carousel__descr"></div>                    
+                  </div>
+                  <div>your content</div>
+                  <div>your content</div>
+                </div>
+                <div class="carousel__btn">
+                  <span class="carousel__prev"><img src="img/arrow-left.svg" alt=""></span>
+                  <span class="carousel__next"><img src="img/arrow-right.svg" alt=""></span>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="promo">
+              <p class="promo__title">
+                <span class="promo__name">Мы.</span>
+                <span class="promo__name">Делаем.</span>
+                <span class="promo__name">Роллы.</span>
+              </p>
+              <p class="promo__descr">При создании наших роллов мы придерживаемся двух принципов: 1.Только свежие продукты. 2.Только самые лучшие продукты.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script type="text/javascript" src="lib/jquery/jquery.js"></script>
+      <script type="text/javascript" src="lib/poper/poper.min.js"></script>
+      <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="lib/slick/slick/slick.js"></script>
+      <script type="text/javascript" src="dist/bundle.js"></script>           
     </body>
 </html>

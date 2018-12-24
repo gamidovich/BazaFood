@@ -1,3 +1,15 @@
 body {
     font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: $fs-base;
+    font-weight: light;
+}
+
+.baza {
+    &__action {
+        font-size: $fs-base;
+        line-height: $lh-normal;
+        display: block;
+        padding-left: 8px;
+        line-height: 1.3;
+    }
 }

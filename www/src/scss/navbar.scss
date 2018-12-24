@@ -1,5 +1,9 @@
 .navbar {
 
+    .nav-link {
+        font-size: $fs-sm;
+    }
+
     &-yellow {
         background-color: $yellow;
     }
@@ -12,13 +16,60 @@
     }
 
     &__tel {
+        font-size: $fs-sm;
         text-align: center;
         color: $black;
     }
 
     &__call {
         display: block;
-        font-size: 10px;
+        font-size: $fs-base;
+    }
+
+    &__address {
+        padding-left: 30px;
+        text-align: right;
+    }
+
+    &__city,
+    &__street,
+    &__location {
+        display: block;
+    }
+
+    &__city,
+    &__street {
+        font-size: $fs-sm;
+        line-height: $lh-base;
+    }
+
+    &__street {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+        &:before {
+            content: '';
+            display: block;
+            width: 14px;
+            height: 12px;
+            padding-right: 20px;
+            background: url('../../img/room.svg') center no-repeat;
+            background-size: contain;
+        }
+    }
+
+    &__location {
+        display: block;
+        padding-top: 6px;
+        font-size: $fs-base;
+        line-height: $lh-base;
+        color: #5f5f5f;
+    }
+
+    &__action {
+        display: block;
+        font-size: $fs-base;
     }
 
 }

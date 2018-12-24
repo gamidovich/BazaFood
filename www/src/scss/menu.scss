@@ -1,0 +1,149 @@
+.menu {
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        margin: 15px 0;
+    }
+
+    &__product {
+        margin: 8px 0;
+        padding: 15px;
+        border-radius: 8px;
+
+        &--big {
+            width: 100%;
+            height: 100%;
+            min-height: 280px;
+            margin-bottom: 8px;
+        }
+
+        &--short {
+            width: 100%;
+            min-height: 140px;
+        }
+
+        &--small {
+            width: 50%;
+            min-height: 140px;
+
+            &:first-child {
+                margin-right: 8px;
+            }
+    
+            &:last-child {
+                margin-left: 8px;
+            }
+        }
+
+        &--bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+        }
+
+        &--green {
+            background-color: $green;
+        }
+
+        &--pink {
+            background-color: $pink;
+        }
+
+        &--purple {
+            background-color: $purple;
+        }
+
+        &--blue {
+            background-color: $blue;
+        }
+
+        &--orange {
+            background-color: $orange;
+        }
+
+        &--black {
+            background-color: $black;
+        }
+
+        &--footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            overflow: hidden;
+            &:before {
+                content: '';
+                display: block;
+                width: 230px;
+                height: 113px;
+                margin-top: -16px;
+                background: url(../../img/instagram.svg) bottom no-repeat;
+                background-size: cover; 
+            }
+        }
+    }
+
+    &__num,
+    &__link,
+    &__descr {
+        display: block;
+        margin: 4px 0;
+    }
+
+    &__num {
+        font-size: $fs-sm;
+        color: $grey;
+
+        &--footer {
+            padding: 6px 0;
+            text-align: center;
+            color: $white;
+        }
+    }
+
+    &__link {
+        font-size: $fs-sm;
+        font-weight: bold;
+        line-height: $lh-sm;
+        text-transform: uppercase;
+
+        &--big {
+            font-size: $fs-lg;
+        }
+
+        &--footer {
+            padding: 6px 0;
+            color: $yellow;
+            text-align: center;
+        }
+    }
+
+    &__descr {
+        font-size: $fs-mini;
+        line-height: $lh-sm;
+
+        &--big {
+            font-size: $fs-lg;
+        }
+
+        &--footer {
+            text-align: center;
+            color: $grey;
+        }
+    }
+
+    &__price {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-size: $fs-normal;
+        font-weight: bold;
+        background-color: $white;
+
+    }
+    
+}

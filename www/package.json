@@ -16,6 +16,8 @@
   "devDependencies": {
     "css-loader": "^2.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "image-webpack-loader": "^4.6.0",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "sass-resources-loader": "^2.0.0",
