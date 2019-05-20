@@ -6,9 +6,14 @@
     }
 
     &__title {
+        margin-top: 10px;
         font-size: $fs-normal;
         text-align: center;
         line-height: $lh-base;
+
+        @media (min-width: $medium) {
+            margin-top: 26px;
+        }
     }
 
     &__tel {
@@ -50,6 +55,15 @@
             background: url('../../img/instagram.svg') center no-repeat;
             background-size: contain;
         }
+    }
+
+    &__instagram {
+        &:link,
+        &:visited,
+        &:hover,
+        &:active {
+            text-decoration: none;
+        }        
     }
 
     &__descr {
