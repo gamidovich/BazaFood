@@ -1,11 +1,12 @@
 .footer {
-    padding: 15px;
+    padding: 15px 0;
 
     &__logo {
         color: $yellow;
     }
 
     &__title {
+        margin-top: 12px;
         font-size: $fs-normal;
         text-align: center;
         line-height: $lh-base;
@@ -21,7 +22,8 @@
         line-height: $lh-normal;
         color: $black;
         border-radius: 8px;
-        background: $yellow url('../../img/call-logo.svg') 7px -14px no-repeat;
+        background: url('../../img/call-logo.svg') 7px -14px no-repeat;
+        background-color: $yellow;        
         background-size: 88px 94px;
 
         // &:before {
