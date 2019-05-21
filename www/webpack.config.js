@@ -19,7 +19,7 @@ module.exports = {
             {
               loader: 'sass-resources-loader',
               options: {
-                resources: ['./src/scss/colors.scss', './src/scss/typography.scss']
+                resources: ['./src/scss/colors.scss', './src/scss/typography.scss', './src/scss/dimensions.scss']
               },
             },
           ]
