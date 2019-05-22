@@ -3,11 +3,39 @@
 
     &__title {
         padding: 16px 0 0 0;
+
+        @media (min-width: $medium) {
+            text-align: center;
+        }
+    }
+
+    &__name {
         font-size: 32px;
         font-weight: bold;
+        line-height: 1.25;
+
+        @media (min-width: $medium) {
+            font-size: 60px;
+            text-align: center;
+        }
+
+        @media (min-width: $large) {
+            font-size: 60px;
+            text-align: left; 
+            display: block;           
+        }
     }
 
     &__descr {
         font-size: 14px;
+
+        @media (min-width: $medium) {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        @media (min-width: $large) {
+            text-align: left;
+        }
     }
 }
