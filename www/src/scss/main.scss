@@ -1,0 +1,13 @@
+.main {
+    background-color: #fef3e6;
+
+    &__title {
+        padding: 16px 0 0 0;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    &__descr {
+        font-size: 14px;
+    }
+}
