@@ -1,0 +1,15 @@
+.contacts {
+    &__title,
+    &__descr {
+        display: block;
+        line-height: 1.2;
+    }
+
+    &__title {
+        font-size: 14px;
+    }
+
+    &__descr {
+        font-size: 16px;
+    }
+}
