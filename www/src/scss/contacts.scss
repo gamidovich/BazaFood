@@ -1,4 +1,15 @@
 .contacts {
+
+    &__wrap {
+        margin-left: 10px;    
+    }
+
+    &__address {
+        padding: 10px 0;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
     &__title,
     &__descr {
         display: block;
@@ -6,7 +17,9 @@
     }
 
     &__title {
-        font-size: 14px;
+        margin: 0;
+        padding: 30px 0 10px 0;   
+        font-size: 34px;
     }
 
     &__descr {

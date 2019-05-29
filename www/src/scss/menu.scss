@@ -68,6 +68,14 @@
             background-color: $black;
         }
 
+        &--grey {
+            background-color: $grey;
+        }
+
+        &--grey-light {
+            background-color: $grey-light;
+        }
+
         &--footer {
             display: flex;
             flex-direction: column;
@@ -83,6 +91,40 @@
                 background: url(../../img/instagram.svg) bottom no-repeat;
                 background-size: cover; 
             }
+        }
+    }
+
+    &__contacts {
+        display: flex; 
+        justify-content: baseline;
+        align-items: center;
+
+        &--phone:before {
+            content: '';
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: url(../../img/phone.png) center no-repeat;
+            background-size: contain;
+        }
+
+        &--clock:before {
+            content: '';
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: url(../../img/clock.png) center no-repeat;
+            background-size: contain;
+                    
+        }
+
+        &--sale:before {
+            content: '';
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background: url(../../img/sale.png) center no-repeat;
+            background-size: contain;                    
         }
     }
 
@@ -112,6 +154,10 @@
 
         &--big {
             font-size: $fs-lg;
+        }
+
+        &--small {
+            font-size: $fs-sm;
         }
 
         &--footer {
