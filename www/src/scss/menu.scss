@@ -94,6 +94,24 @@
         }
     }
 
+    &__bg {
+        background-repeat: no-repeat;
+
+        &-rc {
+            background-position:  44px center;
+
+            @media (min-width: 414px) {
+                background-position: 54px center;
+            }
+        }
+
+        &--atlantic {
+            background-image: url(../../img/content/atlantic.png);
+            
+
+        }
+    }
+
     &__contacts {
         display: flex; 
         justify-content: baseline;
