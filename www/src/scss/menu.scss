@@ -65,6 +65,19 @@
         }
     }
 
+    &__links {
+        text-align: right;
+    }
+
+    &__allitems {
+        display: inline-block;
+        padding: 8px 14px;
+        font-size: 14px;
+        border-radius: 8px;
+        background-color: $grey-light;
+
+    }
+
     &__product {
         width: 100%;
         margin: 8px 0;
