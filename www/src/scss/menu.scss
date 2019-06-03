@@ -17,6 +17,13 @@
         &-descr {
             position: relative;
             z-index: 1;
+
+            &--bottom {
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-start;
+                height: 100%;
+            }
         }
 
         &-pic {
@@ -30,6 +37,12 @@
             height: 100%;           
             z-index: 0;
             overflow: hidden;
+
+            &--top {
+                left: 0;
+                width: 100%;
+                height: auto;
+            }
         }
 
         &--green {
@@ -64,6 +77,17 @@
             background-color: $grey-light;
         }
     }
+
+    // &__inner {
+    //     display: flex;
+    //     justify-content: flex-start;
+    //     align-items: flex-start;
+
+    //     &--bottom {
+    //         justify-content: flex-start;
+    //         align-items: flex-end;
+    //     }
+    // }
 
     &__links {
         text-align: right;
