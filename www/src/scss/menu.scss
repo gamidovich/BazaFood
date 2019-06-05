@@ -5,6 +5,10 @@
         justify-content: space-between;
         align-items: stretch;
         margin-top: 8px;
+
+        &--mini {
+            margin-top: 0;
+        }
     }
 
     &__item {
@@ -13,6 +17,11 @@
         height: 100%;
         padding: 15px;
         border-radius: 8px;
+        overflow: hidden;
+
+        &--mini {
+            height: auto;
+        }
 
         &-descr {
             position: relative;
@@ -76,6 +85,10 @@
         &--grey-light {
             background-color: $grey-light;
         }
+    }
+
+    &__mini {
+        width: 50%;
     }
 
     // &__inner {
